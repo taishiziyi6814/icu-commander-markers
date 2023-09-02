@@ -1,0 +1,22 @@
+<OverlayData>
+  <MarkerCategory name="icuCommanderPack" displayName="ViP ICU Commander Pack">
+    <MarkerCategory name="w1" displayName="Spirit Vale (W1)" fadeNear="3000" fadeFar="3500">
+      <MarkerCategory name="arrow" name="Arrow Marker" iconFile="Data/Markers/arrow_marker.png" />
+      <MarkerCategory name="arrow-gray" name="Arrow (Gray) Marker" iconFile="Data/Markers/arrow_marker_grayscale.png" />
+      <MarkerCategory name="circle" name="Circle Marker" iconFile="Data/Markers/circle_marker.png" />
+      <MarkerCategory name="circle-gray" name="Circle (Gray) Marker" iconFile="Data/Markers/circle_marker_grayscale.png" />
+      <MarkerCategory name="heart" name="Heart Marker" iconFile="Data/Markers/heart_marker.png" />
+      <MarkerCategory name="heart-gray" name="Heart (Gray) Marker" iconFile="Data/Markers/heart_marker_grayscale.png" />
+      <MarkerCategory name="square" name="Square Marker" iconFile="Data/Markers/square_marker.png" />
+      <MarkerCategory name="square-gray" name="Square (Gray) Marker" iconFile="Data/Markers/square_marker_grayscale.png" />
+      <MarkerCategory name="star" name="Star Marker" iconFile="Data/Markers/star_marker.png" />
+      <MarkerCategory name="star-gray" name="Star (Gray) Marker" iconFile="Data/Markers/star_marker_grayscale.png" />
+      <MarkerCategory name="spiral" name="Spiral Marker" iconFile="Data/Markers/spiral_marker.png" />
+      <MarkerCategory name="spiral-gray" name="Spiral (Gray) Marker" iconFile="Data/Markers/spiral_marker_grayscale.png" />
+      <MarkerCategory name="triangle" name="Triangle Marker" iconFile="Data/Markers/triangle_marker.png" />
+      <MarkerCategory name="triangle-gray" name="Triangle (Gray) Marker" iconFile="Data/Markers/triangle_marker_grayscale.png" />
+      <MarkerCategory name="x" name="X Marker" iconFile="Data/Markers/x_marker.png" />
+      <MarkerCategory name="x-gray" name="X (Gray) Marker" iconFile="Data/Markers/x_marker_grayscale.png" />
+    </MarkerCategory>
+  </MarkerCategory>
+</OverlayData>

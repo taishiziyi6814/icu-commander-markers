@@ -1,22 +1,351 @@
 <OverlayData>
   <MarkerCategory name="icuCommanderPack" displayName="ViP ICU Commander Pack">
-    <MarkerCategory name="w1" displayName="Spirit Vale (W1)" fadeNear="3000" fadeFar="3500">
-      <MarkerCategory name="arrow" name="Arrow Marker" iconFile="Data/Markers/arrow_marker.png" />
-      <MarkerCategory name="arrow-gray" name="Arrow (Gray) Marker" iconFile="Data/Markers/arrow_marker_grayscale.png" />
-      <MarkerCategory name="circle" name="Circle Marker" iconFile="Data/Markers/circle_marker.png" />
-      <MarkerCategory name="circle-gray" name="Circle (Gray) Marker" iconFile="Data/Markers/circle_marker_grayscale.png" />
-      <MarkerCategory name="heart" name="Heart Marker" iconFile="Data/Markers/heart_marker.png" />
-      <MarkerCategory name="heart-gray" name="Heart (Gray) Marker" iconFile="Data/Markers/heart_marker_grayscale.png" />
-      <MarkerCategory name="square" name="Square Marker" iconFile="Data/Markers/square_marker.png" />
-      <MarkerCategory name="square-gray" name="Square (Gray) Marker" iconFile="Data/Markers/square_marker_grayscale.png" />
-      <MarkerCategory name="star" name="Star Marker" iconFile="Data/Markers/star_marker.png" />
-      <MarkerCategory name="star-gray" name="Star (Gray) Marker" iconFile="Data/Markers/star_marker_grayscale.png" />
-      <MarkerCategory name="spiral" name="Spiral Marker" iconFile="Data/Markers/spiral_marker.png" />
-      <MarkerCategory name="spiral-gray" name="Spiral (Gray) Marker" iconFile="Data/Markers/spiral_marker_grayscale.png" />
-      <MarkerCategory name="triangle" name="Triangle Marker" iconFile="Data/Markers/triangle_marker.png" />
-      <MarkerCategory name="triangle-gray" name="Triangle (Gray) Marker" iconFile="Data/Markers/triangle_marker_grayscale.png" />
-      <MarkerCategory name="x" name="X Marker" iconFile="Data/Markers/x_marker.png" />
-      <MarkerCategory name="x-gray" name="X (Gray) Marker" iconFile="Data/Markers/x_marker_grayscale.png" />
+    <MarkerCategory name="r" displayName="Raid Wings">
+      <MarkerCategory name="w1" displayName="Spirit Vale (W1)" fadeNear="3000" fadeFar="5000">
+        <MarkerCategory name="vg" displayName="Vale Guardian">
+          <MarkerCategory name="vgtank1" displayName="Initial Tanking" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="vgcondi" displayName="Split Phase (Condi)" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="vggroup" displayName="Split Phase (Group)" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="vgtank2" displayName="Final Phase Tanking" iconFile="Data/Markers/x_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="sr" displayName="Spirit Run">
+          <MarkerCategory name="top" displayName="Top" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="gate" displayName="Gate" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="switch" displayName="Switch" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="botfar" displayName="Bottom (near)" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="botnear" displayName="Bottom (far)" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="btns" displayName="JP Button Locations">
+            <MarkerCategory name="btn1" displayName="JP Button Locations" iconFile="Data/Markers/star_marker_50.png"/>
+            <MarkerCategory name="btn2" displayName="JP Button Locations" iconFile="Data/Markers/star_marker_50.png"/>
+            <MarkerCategory name="btn3" displayName="JP Button Locations" iconFile="Data/Markers/star_marker_50.png"/>
+            <MarkerCategory name="btn4" displayName="JP Button Locations" iconFile="Data/Markers/star_marker_50.png"/>
+            <MarkerCategory name="btn5" displayName="JP Button Locations" iconFile="Data/Markers/star_marker_50.png"/>
+          </MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="gsvl" displayName="Gorseval the Multifarious">
+          <MarkerCategory name="cs1" displayName="Charged Soul 1" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="cs2" displayName="Charged Soul 2" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="cs3" displayName="Charged Soul 3" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="cs4" displayName="Charged Soul 4" iconFile="Data/Markers/square_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="sab" displayName="Sabetha the Saboteur">
+          <MarkerCategory name="sc" displayName="South Cannon Launch" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="wc" displayName="West Cannon Launch" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="nc" displayName="North Cannon Launch" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="ec" displayName="East Cannon Launch" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="kh" displayName="Flack/Bomb Kite Home" iconFile="Data/Markers/star_marker_50.png"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="w2" displayName="Salvation Pass (W2)" fadeNear="3000" fadeFar="5000">
+        <MarkerCategory name="slth" displayName="Slothasor">
+          <MarkerCategory name="slm1" displayName="Mushroom 1" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="slm2" displayName="Mushroom 2" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="slm3" displayName="Mushroom 3" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="slm4" displayName="Mushroom 4" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="slc1" displayName="Center 1" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="slc2" displayName="Center 2" iconFile="Data/Markers/spiral_marker_50.png"/>
+          <MarkerCategory name="slc3" displayName="Center 3" iconFile="Data/Markers/triangle_marker_50.png"/>
+          <MarkerCategory name="slc4" displayName="Center 4" iconFile="Data/Markers/x_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="b3" displayName="Bandit Camp">
+          <MarkerCategory name="b3c" displayName="Cage" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="b3ber" displayName="Berg" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="b3za" displayName="Zane" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="b3na" displayName="Narella" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="b3o" displayName="Oils" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="b3bh" displayName="Beehives" iconFile="Data/Markers/spiral_marker_50.png"/>
+          <MarkerCategory name="b3m1" displayName="Mortar 1/2" iconFile="Data/Markers/triangle_marker_50.png"/>
+          <MarkerCategory name="b3m2" displayName="Mortar 3" iconFile="Data/Markers/x_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="mat" displayName="Matthias Gabrel">
+          <MarkerCategory name="mgf1" displayName="Fountain 1" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="mgf2" displayName="Fountain 2" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="mgf3" displayName="Fountain 3" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="mgf4" displayName="Fountain 4" iconFile="Data/Markers/square_marker_50.png"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="w3" displayName="Stronghold of the Faithful (W3)" fadeNear="3000" fadeFar="5000">
+        <!-- <MarkerCategory name="escrt" displayName="Escort"></MarkerCategory> -->
+        <MarkerCategory name="kc" displayName="Keep Construct">
+          <MarkerCategory name="kcg" displayName="Main Group" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="kca" displayName="Alac Providers" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="kcq" displayName="Quick Providers" iconFile="Data/Markers/heart_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="tc" displayName="Twisted Castle">
+          <MarkerCategory name="tc1" displayName="First Button" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="tc2" displayName="Second (Skip) Button" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="tc3" displayName="Third Button (Three Statues)" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="tc4" displayName="Fourth Button" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="tc5" displayName="Fifth Button" iconFile="Data/Markers/star_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="xer" displayName="Xera">
+          <MarkerCategory name="xar" displayName="Arrow" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="xsq" displayName="Square" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="xhe" displayName="Heart" iconFile="Data/Markers/heart_marker_50.png"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="w4" displayName="Bastion of the Penitent (W4)" fadeNear="3000" fadeFar="5000">
+        <MarkerCategory name="crn" displayName="Cairn the Indomitable">
+          <MarkerCategory name="ctia" displayName="Arrow" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="ctic" displayName="Circle" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="ctih" displayName="Heart" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="ctisq" displayName="Square" iconFile="Data/Markers/square_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="mo" displayName="Mursaat Overseer">
+          <MarkerCategory name="moa" displayName="Arrow" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="moc" displayName="Circle" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="moh" displayName="Heart" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="mosq" displayName="Square" iconFile="Data/Markers/square_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="sam" displayName="Samarog">
+          <MarkerCategory name="sampr" displayName="Prisoner Phase" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="samcm" displayName="CM Markers">
+            <MarkerCategory name="samcma" displayName="" iconFile="Data/Markers/arrow_marker_50.png"/>
+            <MarkerCategory name="samcmc" displayName="" iconFile="Data/Markers/circle_marker_50.png"/>
+            <MarkerCategory name="samcmh" displayName="" iconFile="Data/Markers/heart_marker_50.png"/>
+            <MarkerCategory name="samcmsq" displayName="" iconFile="Data/Markers/square_marker_50.png"/>
+            <MarkerCategory name="samcmst" displayName="" iconFile="Data/Markers/star_marker_50.png"/>
+            <MarkerCategory name="samcmsp" displayName="" iconFile="Data/Markers/spiral_marker_50.png"/>
+          </MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="dei" displayName="Deimos">
+          <MarkerCategory name="deiStand" displayName="Standard Strat">
+            <MarkerCategory name="deihke" displayName="Arrow" iconFile="Data/Markers/arrow_marker_50.png"/>
+            <MarkerCategory name="deihkw" displayName="Circle" iconFile="Data/Markers/circle_marker_50.png"/>
+            <MarkerCategory name="deit1" displayName="Tank Pos 1" iconFile="Data/Markers/heart_marker_50.png"/>
+            <MarkerCategory name="deit2" displayName="Tank Pos 2" iconFile="Data/Markers/square_marker_50.png"/>
+            <MarkerCategory name="deit3" displayName="Tank Pos 3" iconFile="Data/Markers/star_marker_50.png"/>
+          </MarkerCategory>
+          <MarkerCategory name="deiCirc" displayName="Circle Strat">
+            <MarkerCategory name="deihks" displayName="Arrow" iconFile="Data/Markers/arrow_marker_50.png"/>
+            <MarkerCategory name="deiskt" displayName="Circle" iconFile="Data/Markers/circle_marker_50.png"/>
+          </MarkerCategory>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="w5" displayName="Hall of Chains (W5)" fadeNear="3000" fadeFar="5000">
+        <MarkerCategory name="sh" displayName="Soulless Horror">
+          <MarkerCategory name="deihke" displayName="Arrow" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="deihkw" displayName="Circle" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="deit1" displayName="Heart" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="deit2" displayName="Square" iconFile="Data/Markers/square_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="stat" displayName="Statues">
+          <!-- <MarkerCategory name="eos" displayName="Eater of Souls"></MarkerCategory> -->
+          <MarkerCategory name="eye" displayName="Eyes">
+            <MarkerCategory name="eyen" displayName="North Group" iconFile="Data/Markers/arrow_marker_50.png"/>
+            <MarkerCategory name="eyes" displayName="South Group" iconFile="Data/Markers/circle_marker_50.png"/>
+          </MarkerCategory>
+          <MarkerCategory name="bk" displayName="Broken King">
+            <MarkerCategory name="bktnk" displayName="Tank Position" iconFile="Data/Markers/arrow_marker_50.png"/>
+          </MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="dhu" displayName="Dhuum">
+          <MarkerCategory name="dhune" displayName="NE Reaper" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="dhue" displayName="E Reaper" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="dhuse" displayName="SE Reaper" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="dhus" displayName="S Reaper" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="dhusw" displayName="SW Reaper" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="dhuw" displayName="W Reaper" iconFile="Data/Markers/spiral_marker_50.png"/>
+          <MarkerCategory name="dhunw" displayName="NW Reaper" iconFile="Data/Markers/triangle_marker_50.png"/>
+          <MarkerCategory name="dhun" displayName="N Reaper" iconFile="Data/Markers/x_marker_50.png"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="w6" displayName="Mythwright Gambit (W6)" fadeNear="3000" fadeFar="5000">
+        <MarkerCategory name="cam" displayName="Conjured Amalgamate">
+          <MarkerCategory name="casw" displayName="Swords" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="cash" displayName="Shields" iconFile="Data/Markers/circle_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="twl" displayName="Twin Largos">
+          <MarkerCategory name="twln" displayName="Nikare (Left)" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="twlk" displayName="Kenut (Right)" iconFile="Data/Markers/circle_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="qad" displayName="Qadim">
+          <MarkerCategory name="qad1" displayName="Q1" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="qad2" displayName="Q2" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="qad3" displayName="Q3" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="qad4" displayName="Q4" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="qad5" displayName="Q5" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="qad6" displayName="Q6" iconFile="Data/Markers/spiral_marker_50.png"/>
+          <MarkerCategory name="qad7" displayName="Q7" iconFile="Data/Markers/triangle_marker_50.png"/>
+          <MarkerCategory name="qad8" displayName="Q8" iconFile="Data/Markers/x_marker_50.png"/>
+        </MarkerCategory>
+      </MarkerCategory>
+      <MarkerCategory name="w7" displayName="The Key of Adashim (W7)" fadeNear="3000" fadeFar="5000">
+        <MarkerCategory name="gate" displayName="Gate">
+          <MarkerCategory name="gd1" displayName="Djinn 1" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="gd2" displayName="Djinn 2" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="gd3" displayName="Djinn 3" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="gd4" displayName="Djinn 4" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="gd5" displayName="Djinn 5" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="gd6" displayName="Djinn 6" iconFile="Data/Markers/spiral_marker_50.png"/>
+          <MarkerCategory name="gg" displayName="Guard Glenna" iconFile="Data/Markers/triangle_marker_50.png"/>
+        </MarkerCategory>
+        <MarkerCategory name="cara" displayName="Cardinal Adina">
+          <MarkerCategory name="capn" displayName="North Pillar" iconFile="Data/Markers/arrow_marker_50.png"/>
+          <MarkerCategory name="capne" displayName="Northeast Pillar" iconFile="Data/Markers/circle_marker_50.png"/>
+          <MarkerCategory name="capse" displayName="Southeast Pillar" iconFile="Data/Markers/heart_marker_50.png"/>
+          <MarkerCategory name="capsw" displayName="Southwest Pillar" iconFile="Data/Markers/square_marker_50.png"/>
+          <MarkerCategory name="capnw" displayName="Northwest Pillar" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="cat" displayName="Tank Location" iconFile="Data/Markers/spiral_marker_50.png"/>
+        </MarkerCategory>
+        <!-- <MarkerCategory name="cars" displayName="Cardinal Sabir"></MarkerCategory> -->
+        <MarkerCategory name="q2p" displayName="Qadim the Peerless">
+            <MarkerCategory name="q2psef1" displayName="SE Fire 1" iconFile="Data/Markers/arrow_marker_50.png"/>
+            <MarkerCategory name="q2pswf1" displayName="SW Fire 1" iconFile="Data/Markers/heart_marker_50.png"/>
+            <MarkerCategory name="q2pnf1" displayName="N Fire 1" iconFile="Data/Markers/star_marker_50.png"/>
+          <MarkerCategory name="q2pstandard" displayName="Standard Strat">
+            <MarkerCategory name="q2pssef2" displayName="SE Fire 2" iconFile="Data/Markers/circle_marker_50.png"/>
+            <MarkerCategory name="q2psswf2" displayName="SW Fire 2" iconFile="Data/Markers/square_marker_50.png"/>
+            <MarkerCategory name="q2psnf2" displayName="N Fire 2" iconFile="Data/Markers/spiral_marker_50.png"/>
+          </MarkerCategory>
+          <MarkerCategory name="q2padvanced" displayName="Advanced (CM) Strat">
+            <MarkerCategory name="q2pasef2" displayName="SE Fire 2" iconFile="Data/Markers/circle_marker_50.png"/>
+            <MarkerCategory name="q2paswf2" displayName="SW Fire 2" iconFile="Data/Markers/square_marker_50.png"/>
+            <MarkerCategory name="q2panf2" displayName="N Fire 2" iconFile="Data/Markers/spiral_marker_50.png"/>
+          </MarkerCategory>
+          <MarkerCategory name="q2pcm" displayName="CM Markers">
+            <MarkerCategory name="q2pcmg" displayName="Phase Group-Up" iconFile="Data/Markers/triangle_marker_50.png"/>
+          </MarkerCategory>
+        </MarkerCategory>
+      </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
+  <POIs>
+    <!-- VG Markers -->
+    <POI MapID="1062" xpos="-87.9798" ypos="60.9373" zpos="-543.384" type="icucommanderpack.r.w1.vg.vgtank1" GUID="BkBaCCQ3xkW7zu5/wC2dKA=="/>
+    <POI MapID="1062" xpos="-121.223" ypos="60.9373" zpos="-559.166" type="icucommanderpack.r.w1.vg.vgcondi" GUID="2/XyCbeBK0qWmvV7vaIGXA=="/>
+    <POI MapID="1062" xpos="-91.2114" ypos="60.9414" zpos="-506.253" type="icucommanderpack.r.w1.vg.vggroup" GUID="37RZO1b8v0C6GukY2Uz2BQ=="/>
+    <POI MapID="1062" xpos="-133.439" ypos="60.9373" zpos="-532.828" type="icucommanderpack.r.w1.vg.vgtank2" GUID="XHNu8mTCMEi/O7/LliGtpw=="/>
+    <POI MapID="1062" xpos="-151.623" ypos="60.9373" zpos="-507.105" type="icucommanderpack.r.w1.sr.btns.btn1" GUID="MWpsZPIphEuFaRFoy3De1g=="/>
+    <!-- Spirit Run Wells -->
+    <POI MapID="1062" xpos="-115.181" ypos="40.3756" zpos="-333.174" type="icucommanderpack.r.w1.sr.top" GUID="6eSpfvGxtUuZmiGc2mkhQQ=="/>
+    <POI MapID="1062" xpos="-79.4231" ypos="36.9873" zpos="-326.354" type="icucommanderpack.r.w1.sr.gate" GUID="A9H+kZr44UaVr0uQPDmkAA=="/>
+    <POI MapID="1062" xpos="-91.9399" ypos="37.8419" zpos="-354.716" type="icucommanderpack.r.w1.sr.switch" GUID="+0bYbVVIokS7fWipJLleJA=="/>
+    <POI MapID="1062" xpos="-51.7857" ypos="33.7126" zpos="-336.688" type="icucommanderpack.r.w1.sr.botfar" GUID="Sk25+BGxhEOKxfdMYaRKug=="/>
+    <POI MapID="1062" xpos="-68.4333" ypos="32.2805" zpos="-371.261" type="icucommanderpack.r.w1.sr.botnear" GUID="P0x22UjXR0u4ns3JRH4zvw=="/>
+    <!-- Spirit Run JP Buttons -->
+    <POI MapID="1062" xpos="-149.105" ypos="58.4778" zpos="-64.8064" type="icucommanderpack.r.w1.sr.btns.btn1" GUID="Yb25XZOFHkG41Icj4rtkVw=="/>
+    <POI MapID="1062" xpos="-159.839" ypos="70.8901" zpos="-142.331" type="icucommanderpack.r.w1.sr.btns.btn2" GUID="4SLyotHIHkyR/V02K6H3LA=="/>
+    <POI MapID="1062" xpos="-106.762" ypos="61.1173" zpos="-167.124" type="icucommanderpack.r.w1.sr.btns.btn3" GUID="ztP7zvK5E02IpOfVeLSxQg=="/>
+    <POI MapID="1062" xpos="-107.15" ypos="72.3763" zpos="-79.5519" type="icucommanderpack.r.w1.sr.btns.btn4" GUID="LoyZN+qk+U+HJoa/8jVteg=="/>
+    <POI MapID="1062" xpos="-97.0703" ypos="80.3319" zpos="-93.0395" type="icucommanderpack.r.w1.sr.btns.btn5" GUID="wWwpgP/suUiiUaQRBtZ2sA=="/>
+    <!-- Gorseval -->
+    <POI MapID="1062" xpos="24.4949" ypos="50.208" zpos="-91.9831" type="icucommanderpack.r.w1.gsvl.cs1" GUID="6PWi31gRVEeFAS7yhaoJRg=="/>
+    <POI MapID="1062" xpos="27.1246" ypos="50.1092" zpos="-132.296" type="icucommanderpack.r.w1.gsvl.cs2" GUID="9XyUmh7cS0+/9XM20nfXpQ=="/>
+    <POI MapID="1062" xpos="57.6621" ypos="50.3688" zpos="-90.4266" type="icucommanderpack.r.w1.gsvl.cs3" GUID="RZSOISQh3Eao3Ewc0VFmwg=="/>
+    <POI MapID="1062" xpos="59.8923" ypos="50.3823" zpos="-132.913" type="icucommanderpack.r.w1.gsvl.cs4" GUID="VWl8O3No80WHE+YxQy4A3w=="/>
+    <!-- Sabetha -->
+    <POI MapID="1062" xpos="-132.745" ypos="62.9612" zpos="56.0985" type="icucommanderpack.r.w1.sab.sc" GUID="jX4/qcPWo0ypYN1gTeaSYw=="/>
+    <POI MapID="1062" xpos="-157.575" ypos="62.2739" zpos="87.0239" type="icucommanderpack.r.w1.sab.wc" GUID="CUf/awyApE+ur22cPZDeeQ=="/>
+    <POI MapID="1062" xpos="-126.746" ypos="62.9453" zpos="112.06" type="icucommanderpack.r.w1.sab.nc" GUID="DGZy5P5BGEO7ja1h2FVsHA=="/>
+    <POI MapID="1062" xpos="-101.798" ypos="63.0379" zpos="81.3089" type="icucommanderpack.r.w1.sab.ec" GUID="S+wvgzi1HE26B8P1gU1w3w=="/>
+    <POI MapID="1062" xpos="-140.911" ypos="62.2951" zpos="85.6646" type="icucommanderpack.r.w1.sab.kh" GUID="CD6mnSn1aUKlCnK45xl0ZQ=="/>
+    <!-- Slothasor -->
+    <POI MapID="1149" xpos="208.928" ypos="5.00471" zpos="25.505" type="icucommanderpack.r.w2.slth.slm1" GUID="T46Fq3RJ/EeeSP0DUhbkhQ=="/>
+    <POI MapID="1149" xpos="174.388" ypos="2.40172" zpos="-10.1541" type="icucommanderpack.r.w2.slth.slm2" GUID="KPgo1xEyWU+6qdMSNXUe/g=="/>
+    <POI MapID="1149" xpos="193.031" ypos="0.838443" zpos="-35.9044" type="icucommanderpack.r.w2.slth.slm3" GUID="6TMpJ7vmw0Kt5j5JLgHaSg=="/>
+    <POI MapID="1149" xpos="225.022" ypos="-0.177109" zpos="-13.4858" type="icucommanderpack.r.w2.slth.slm4" GUID="eYKl1J9FQE+DHY97OhLPHw=="/>
+    <POI MapID="1149" xpos="190.137" ypos="0.892634" zpos="-16.8793" type="icucommanderpack.r.w2.slth.slc2" GUID="MtGzC7VhkkGXlFRRrHWaMw=="/>
+    <POI MapID="1149" xpos="198.699" ypos="0.414996" zpos="-17.3102" type="icucommanderpack.r.w2.slth.slc3" GUID="PZG5OMvzXUCmiuj7dpXStw=="/>
+    <POI MapID="1149" xpos="205.92" ypos="0.836107" zpos="-9.23491" type="icucommanderpack.r.w2.slth.slc4" GUID="lmy4YKGzwEaYvFNm6ZJ2xg=="/>
+    <POI MapID="1149" xpos="196.877" ypos="0.933162" zpos="-7.13292" type="icucommanderpack.r.w2.slth.slc1" GUID="gz5WHsw1akaeFWQWlU2SUQ=="/>
+    <!-- Bandit Trio -->
+    <POI MapID="1149" xpos="70.1165" ypos="2.60559" zpos="-265.193" type="icucommanderpack.r.w2.b3.b3m1" GUID="GhzyC8doQE+fLojdIf2+FQ=="/>
+    <POI MapID="1149" xpos="42.2033" ypos="2.16806" zpos="-223.59" type="icucommanderpack.r.w2.b3.b3m2" GUID="xSznnALY4k+ByqH9xo7BtA=="/>
+    <POI MapID="1149" xpos="-33.0333" ypos="3.91994" zpos="-248.537" type="icucommanderpack.r.w2.b3.b3c" GUID="2wiQkX+jk0+fVGy7NNSqdQ=="/>
+    <POI MapID="1149" xpos="-1.49882" ypos="1.47477" zpos="-235.417" type="icucommanderpack.r.w2.b3.b3ber" GUID="uG+JiCoGc027DhDFsMJHEA=="/>
+    <POI MapID="1149" xpos="-0.559094" ypos="0.95788" zpos="-291.374" type="icucommanderpack.r.w2.b3.b3za" GUID="Q6RW8oXhz0G6wEFZFRobNA=="/>
+    <POI MapID="1149" xpos="-33.0454" ypos="5.93385" zpos="-220.791" type="icucommanderpack.r.w2.b3.b3na" GUID="gQRVUYXquEOaU8hMO2vEMw=="/>
+    <POI MapID="1149" xpos="-33.1213" ypos="15.1157" zpos="-204.18" type="icucommanderpack.r.w2.b3.b3o" GUID="EBWaJTHC2U+lJYUHclke1g=="/>
+    <POI MapID="1149" xpos="-8.14327" ypos="1.83036" zpos="-242.931" type="icucommanderpack.r.w2.b3.b3bh" GUID="VBjrdvnI5UahI75BMk1qwQ=="/>
+    <!-- Matthias Gabrel -->
+    <POI MapID="1149" xpos="-173.628" ypos="131.625" zpos="126.842" type="icucommanderpack.r.w2.mat.mgf1" GUID="b45HRU+SU0+oB8ppZjXIJA=="/>
+    <POI MapID="1149" xpos="-173.973" ypos="131.625" zpos="172.661" type="icucommanderpack.r.w2.mat.mgf2" GUID="u9ql6WrSUkWYDLRKY+sW4w=="/>
+    <POI MapID="1149" xpos="-127.778" ypos="131.625" zpos="173.175" type="icucommanderpack.r.w2.mat.mgf3" GUID="1JW12g9wLkSiAJCcDysXMA=="/>
+    <POI MapID="1149" xpos="-127.566" ypos="131.625" zpos="126.929" type="icucommanderpack.r.w2.mat.mgf4" GUID="EocQh4l0ZUmMxSuF74F4MA=="/>
+    <!-- Keep Construct -->
+    <POI MapID="1156" xpos="-80.5659" ypos="150.151" zpos="229.367" type="icucommanderpack.r.w3.kc.kcg" GUID="hVvc7poBuEux/b600nauPw=="/>
+    <POI MapID="1156" xpos="-113.782" ypos="150.151" zpos="229.122" type="icucommanderpack.r.w3.kc.kca" GUID="q9xyB7VqFEOjIN73G2J8WA=="/>
+    <POI MapID="1156" xpos="-97.0193" ypos="150.151" zpos="255.711" type="icucommanderpack.r.w3.kc.kcq" GUID="sZ+9TvF8OEWNQGQKSu7w8g=="/>
+    <!-- Twisted Castle -->
+    <POI MapID="1156" xpos="-27.8331" ypos="95.0923" zpos="74.1878" type="icucommanderpack.r.w3.tc.tc2" GUID="uTsOMc7oj0Gb8Xnoi4lwmg=="/>
+    <POI MapID="1156" xpos="-24.9431" ypos="191.2" zpos="31.2502" type="icucommanderpack.r.w3.tc.tc3" GUID="K1leTS4uakWOYvGTscYcwQ=="/>
+    <POI MapID="1156" xpos="-3.00039" ypos="164.876" zpos="-57.3541" type="icucommanderpack.r.w3.tc.tc1" GUID="w1ng1Nn0XkiLTojcKB3wBg=="/>
+    <POI MapID="1156" xpos="-85.1149" ypos="138.124" zpos="-21.0217" type="icucommanderpack.r.w3.tc.tc4" GUID="jbA4ydWgKEuwT69bmNE+ZQ=="/>
+    <POI MapID="1156" xpos="-156.333" ypos="137.338" zpos="-65.5605" type="icucommanderpack.r.w3.tc.tc5" GUID="C3pf+TUyfEKavsfLLBsmsA=="/>
+    <!-- Xera -->
+    <POI MapID="1156" xpos="-99.5135" ypos="512.354" zpos="-67.607" type="icucommanderpack.r.w3.xer.xar" GUID="sV/PRhJT7kG0UmrU4sJ67A=="/>
+    <POI MapID="1156" xpos="-63.6635" ypos="512.354" zpos="-59.2631" type="icucommanderpack.r.w3.xer.xsq" GUID="8Q0ysw0EuUOVxKHcgWM6XA=="/>
+    <POI MapID="1156" xpos="-56.6035" ypos="512.354" zpos="-93.5413" type="icucommanderpack.r.w3.xer.xhe" GUID="4WzKk1c4LkSqzGY/vLMITQ=="/>
+    <!-- Cairn the Indomitable --> 
+    <POI MapID="1188" xpos="368.316" ypos="33.7203" zpos="57.4607" type="icucommanderpack.r.w4.crn.ctia" GUID="sqCjl9ZgMk2ibAwCMY7HEQ=="/>
+    <POI MapID="1188" xpos="370.668" ypos="33.7203" zpos="47.7023" type="icucommanderpack.r.w4.crn.ctic" GUID="EUqYMke2AEe+gJ1D4rHNOQ=="/>
+    <POI MapID="1188" xpos="361.11" ypos="33.7203" zpos="45.2698" type="icucommanderpack.r.w4.crn.ctih" GUID="fj5gdV1vUkWTnAe2v9aviw=="/>
+    <POI MapID="1188" xpos="358.803" ypos="33.7203" zpos="54.6731" type="icucommanderpack.r.w4.crn.ctisq" GUID="rwSRppVO8E2r7pns8YzNYA=="/>
+    <!-- Mursaat Overseer -->
+    <POI MapID="1188" xpos="75.1101" ypos="106.187" zpos="109.328" type="icucommanderpack.r.w4.mo.moa" GUID="ftOiFd5kHkuslaxUlRUdvQ=="/>
+    <POI MapID="1188" xpos="75.2744" ypos="106.187" zpos="93.1883" type="icucommanderpack.r.w4.mo.moc" GUID="cAoS/1JA0kSNdjaHREv0yQ=="/>
+    <POI MapID="1188" xpos="59.1907" ypos="106.187" zpos="93.2801" type="icucommanderpack.r.w4.mo.moh" GUID="KmdS7YDjx02l51hemUuV1w=="/>
+    <POI MapID="1188" xpos="59.228" ypos="106.187" zpos="109.297" type="icucommanderpack.r.w4.mo.mosq" GUID="6J6ZXcY4MkCfklWMHGbtxA=="/>
+    <!-- Samarog -->
+    <POI MapID="1188" xpos="-120.39" ypos="129.511" zpos="76.7327" type="icucommanderpack.r.w4.sam.sampr" GUID="woqaAr9dyUWPuKFYd/T4Yg=="/>
+    <POI MapID="1188" xpos="-88.9101" ypos="129.512" zpos="76.7605" type="icucommanderpack.r.w4.sam.samcm.samcmc" GUID="k+CDoqbi9kyNphONm6mhmQ=="/>
+    <POI MapID="1188" xpos="-106.829" ypos="129.557" zpos="76.5094" type="icucommanderpack.r.w4.sam.samcm.samcmst" GUID="xqgkXVNGBUKSDognXOgB/Q=="/>
+    <POI MapID="1188" xpos="-106.593" ypos="129.511" zpos="58.0116" type="icucommanderpack.r.w4.sam.samcm.samcmsp" GUID="jGFUNnYCtUyL7hyKDRXjnQ=="/>
+    <POI MapID="1188" xpos="-106.911" ypos="129.511" zpos="97.0672" type="icucommanderpack.r.w4.sam.samcm.samcmsq" GUID="oKwfQQvup0i5t54fyOSIWA=="/>
+    <POI MapID="1188" xpos="-90.1487" ypos="129.511" zpos="97.0846" type="icucommanderpack.r.w4.sam.samcm.samcmh" GUID="uiiBo0fRvEWM74p5VYiFeA=="/>
+    <POI MapID="1188" xpos="-87.6506" ypos="129.508" zpos="58.4282" type="icucommanderpack.r.w4.sam.samcm.samcma" GUID="Am4VhSYcREqJmSb6zyzblg=="/>
+    <!-- Deimos -->
+    <POI MapID="1188" xpos="-193.68" ypos="101.923" zpos="94.1047" type="icucommanderpack.r.w4.dei.deistand.deihke" GUID="qMJTYVyOrUSaqnRtOvo90w=="/>
+    <POI MapID="1188" xpos="-234.187" ypos="101.963" zpos="94.0804" type="icucommanderpack.r.w4.dei.deistand.deihkw" GUID="cHRZykmvXEqN+837zYbXog=="/>
+    <POI MapID="1188" xpos="-214.824" ypos="101.924" zpos="71.8342" type="icucommanderpack.r.w4.dei.deistand.deit1" GUID="6URTzMRAS068fJSiwCUAFA=="/>
+    <POI MapID="1188" xpos="-226.767" ypos="101.923" zpos="61.1673" type="icucommanderpack.r.w4.dei.deistand.deit2" GUID="1O318xE99EGrDX4RwpWwbQ=="/>
+    <POI MapID="1188" xpos="-204.014" ypos="101.923" zpos="57.9714" type="icucommanderpack.r.w4.dei.deistand.deit3" GUID="pFN/zNbZ+UGGfMw/O0VMHw=="/>
+    <!-- Soulless Horror -->
+    <POI MapID="1264" xpos="-276.5" ypos="20.7626" zpos="10.2217" type="icucommanderpack.r.w5.sh.deihke" GUID="V7sBGhE9v0G1M3QFblGaUg=="/>
+    <POI MapID="1264" xpos="-281.165" ypos="20.7652" zpos="28.7017" type="icucommanderpack.r.w5.sh.deihkw" GUID="xI1ealHvRU2DBVQd9bnouA=="/>
+    <POI MapID="1264" xpos="-262.53" ypos="20.7626" zpos="33.2567" type="icucommanderpack.r.w5.sh.deit1" GUID="e0X4wqFMCkaxfWcrNrqXtg=="/>
+    <POI MapID="1264" xpos="-257.982" ypos="20.7626" zpos="14.6525" type="icucommanderpack.r.w5.sh.deit2" GUID="N7jxOF7i7USryQ9QkEP6Hw=="/>
+    <!-- Statues -->
+    <POI MapID="1264" xpos="400.432" ypos="80.7675" zpos="-22.5858" type="icucommanderpack.r.w5.stat.eye.eyen" GUID="r6G77Q6vtE+LhAWgVMx6ow=="/>
+    <POI MapID="1264" xpos="400.642" ypos="79.676" zpos="79.5569" type="icucommanderpack.r.w5.stat.eye.eyes" GUID="jmEqFBdoCUG57HSJ1yQzDQ=="/>
+    <!-- Dhuum -->
+    <POI MapID="1264" xpos="429.155" ypos="158.614" zpos="30.7517" type="icucommanderpack.r.w5.dhu.dhune" GUID="Z9Au53I3JU62GX9oW8RYhQ=="/>
+    <POI MapID="1264" xpos="427.854" ypos="158.665" zpos="1.94213" type="icucommanderpack.r.w5.dhu.dhue" GUID="jIObNajorkmVZLNYNCtFFw=="/>
+    <POI MapID="1264" xpos="404.794" ypos="158.66" zpos="-14.709" type="icucommanderpack.r.w5.dhu.dhuse" GUID="XPpcdHiM/EKAi7CWZB0xNQ=="/>
+    <POI MapID="1264" xpos="377.648" ypos="158.644" zpos="-6.51701" type="icucommanderpack.r.w5.dhu.dhus" GUID="KQ5ptEBi106xVH6okdyiYw=="/>
+    <POI MapID="1264" xpos="365.901" ypos="158.66" zpos="19.3423" type="icucommanderpack.r.w5.dhu.dhusw" GUID="m8IFDtq8ZkS3GLmoT/OBrQ=="/>
+    <POI MapID="1264" xpos="379.088" ypos="158.636" zpos="44.8241" type="icucommanderpack.r.w5.dhu.dhuw" GUID="IA7Z04UzL0GeVM22AaSrrA=="/>
+    <POI MapID="1264" xpos="407.844" ypos="158.553" zpos="49.8743" type="icucommanderpack.r.w5.dhu.dhunw" GUID="wDbNXuDR8k68Sbsi5/nIXA=="/>
+    <!-- Conjured Amalgamate -->
+    <POI MapID="1303" xpos="-96.8803" ypos="52.4141" zpos="-314.471" type="icucommanderpack.r.w6.cam.casw" GUID="CSXaNEI/t0yrE85fVZFQIw=="/>
+    <POI MapID="1303" xpos="-95.1035" ypos="52.4149" zpos="-343.206" type="icucommanderpack.r.w6.cam.cash" GUID="V/O08rBv3EyNYY+xDRgeKQ=="/>
+    <!-- Twin Largos -->
+    <POI MapID="1303" xpos="353.899" ypos="33.5572" zpos="8.11761" type="icucommanderpack.r.w6.twl.twln" GUID="pe0VdZPnOUa9aY66JGmHyA=="/>
+    <POI MapID="1303" xpos="379.888" ypos="33.5572" zpos="8.15681" type="icucommanderpack.r.w6.twl.twlk" GUID="Q9soHaxl2kSKPvC4Nt9jUg=="/>
+    <!-- Qadim -->
+    <POI MapID="1303" xpos="-165.976" ypos="120.168" zpos="296.818" type="icucommanderpack.r.w6.qad.qad1" GUID="1RCEBu7aDUK+7nKiv9whGg=="/>
+    <POI MapID="1303" xpos="-185.398" ypos="120.168" zpos="301.724" type="icucommanderpack.r.w6.qad.qad2" GUID="2SELEuF3Fk287PFRvibnRw=="/>
+    <POI MapID="1303" xpos="-195.51" ypos="120.168" zpos="306.86" type="icucommanderpack.r.w6.qad.qad3" GUID="DMJSpGDLckmbLVufQv6bRA=="/>
+    <POI MapID="1303" xpos="-146.138" ypos="120.169" zpos="331.193" type="icucommanderpack.r.w6.qad.qad4" GUID="5SoPkqwSMUKoq1xenv4atw=="/>
+    <POI MapID="1303" xpos="-230.277" ypos="120.168" zpos="330.278" type="icucommanderpack.r.w6.qad.qad5" GUID="tpWwjoBFNUK9opbdg3qifA=="/>
+    <!-- Cardinal Adina -->
+    <POI MapID="1323" xpos="378.662" ypos="7.75348" zpos="-23.1067" type="icucommanderpack.r.w7.cara.capn" GUID="TkzhXXeBiEyP0LNtGUJEKA=="/>
+    <POI MapID="1323" xpos="393.694" ypos="7.75297" zpos="-35.2477" type="icucommanderpack.r.w7.cara.capne" GUID="FTohErby60ys4KtHqicRZA=="/>
+    <POI MapID="1323" xpos="387.824" ypos="7.75297" zpos="-49.3703" type="icucommanderpack.r.w7.cara.capse" GUID="ubiXdC8n50W8DwfPDP6SxQ=="/>
+    <POI MapID="1323" xpos="369.655" ypos="7.75296" zpos="-49.8967" type="icucommanderpack.r.w7.cara.capsw" GUID="4Mow3RF980SawdgJISrn1Q=="/>
+    <POI MapID="1323" xpos="363.408" ypos="7.75296" zpos="-35.2135" type="icucommanderpack.r.w7.cara.capnw" GUID="WN/GiTg36UuJAngyA3aDPQ=="/>
+    <POI MapID="1323" xpos="378.634" ypos="7.75297" zpos="-43.1855" type="icucommanderpack.r.w7.cara.cat" GUID="zu0w3cfU0E2LIIaNf2Ct2Q=="/>
+    <!-- Qadim the Peerless -->
+    <POI MapID="1323" xpos="61.3618" ypos="16.812" zpos="222.906" type="icucommanderpack.r.w7.q2p.q2psef1" GUID="INSdS1vi9E+rx+tv4I0kHw=="/>
+    <POI MapID="1323" xpos="3.1311" ypos="16.812" zpos="256.625" type="icucommanderpack.r.w7.q2p.q2pswf1" GUID="ws5qkztSb0e2BpXUpFLJgQ=="/>
+    <POI MapID="1323" xpos="60.1696" ypos="16.812" zpos="289.691" type="icucommanderpack.r.w7.q2p.q2pnf1" GUID="pK9e9jG0cEqTRDInVpqktg=="/>
+    <POI MapID="1323" xpos="79.8654" ypos="16.812" zpos="256.548" type="icucommanderpack.r.w7.q2p.q2pstandard.q2pssef2" GUID="Y2Nae8xDTUe85iVCuOjD8g=="/>
+    <POI MapID="1323" xpos="22.7584" ypos="16.812" zpos="222.638" type="icucommanderpack.r.w7.q2p.q2pstandard.q2psswf2" GUID="PzWKCQdJmUebGy6hWs7SzA=="/>
+    <POI MapID="1323" xpos="22.9018" ypos="16.8121" zpos="289.521" type="icucommanderpack.r.w7.q2p.q2pstandard.q2psnf2" GUID="AGABFnQFnUCokV6kAbCJ0w=="/>
+    <POI MapID="1323" xpos="33.5204" ypos="16.812" zpos="226.778" type="icucommanderpack.r.w7.q2p.q2padvanced.q2pasef2" GUID="aVcfunTYYk2SWs4osDWp0A=="/>
+    <POI MapID="1323" xpos="20.0268" ypos="16.812" zpos="277.416" type="icucommanderpack.r.w7.q2p.q2padvanced.q2paswf2" GUID="nkjhKPo4hkyZdcLLTS+ESg=="/>
+    <POI MapID="1323" xpos="70.6811" ypos="16.812" zpos="263.755" type="icucommanderpack.r.w7.q2p.q2padvanced.q2panf2" GUID="WaznHXSvlUGylS6z4gzpSA=="/>
+    <POI MapID="1323" xpos="41.4785" ypos="16.812" zpos="217.458" type="icucommanderpack.r.w7.q2p.q2pcm.q2pcmg" GUID="o6ZKX7GkFE2olyLHJEoAsA=="/>
+  </POIs>
 </OverlayData>
